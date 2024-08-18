@@ -19,8 +19,18 @@ const IndiCoinPage = () => {
       </div>
 
       {/* Content */}
-      <div className="relative flex items-center justify-center min-h-screen z-10">
+      <div className="relative flex flex-col items-center justify-center min-h-screen z-10 space-y-8">
         <h1 className="text-4xl font-bold">Coming Soon</h1>
+
+        {/* White Paper Link */}
+        <a
+          href="https://online.publuu.com/626086/1397543" // Replace with the actual URL of your white paper PDF
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out"
+        >
+          View White Paper
+        </a>
       </div>
     </div>
   );
